@@ -1,0 +1,40 @@
+.section-1 {
+  position: relative;
+  text-align: center;
+}
+.section-1__image {
+  width: 100%;
+}
+.section-1__description {
+  font-family: "source sans pro", helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(102, 119, 136);
+}
+
+.section-1-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "source sans pro", helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(102, 119, 136);
+  padding: 0 15px;
+}
+.section-1-flex__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+.section-1-flex__item {
+  padding-left: 0;
+  list-style-type: none;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 15px;
+  width: 25%;
+  min-width: 140px;
+  max-width: 250px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=section-1.css.map */
