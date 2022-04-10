@@ -1,0 +1,52 @@
+.title {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  font-family: "bebas neue", bebas, helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+}
+.title:before, .title:after {
+  display: inline-block;
+  width: 50px;
+  margin: 0 10px;
+  content: "";
+  border-bottom: 2px solid rgb(102, 119, 136);
+}
+
+.text-s {
+  margin: 0;
+  font-family: "source sans pro", helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(102, 119, 136);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.text-m {
+  font-family: "source sans pro", helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(102, 119, 136);
+  text-align: center;
+  line-height: 1.5;
+  max-width: 1028px;
+  margin: 0 auto;
+}
+
+.text-l {
+  margin: 0;
+  font-family: "source sans pro", helvetica, sans-serif;
+  font-size: 24px;
+  color: rgb(102, 119, 136);
+  font-weight: 400;
+}
+
+.wrap-text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=common.css.map */

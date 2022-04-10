@@ -1,0 +1,51 @@
+@import "variables";
+
+.title {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  font-family: $font-family-main;
+  font-weight: 400;
+  font-size: $font-size-main;
+  text-transform: uppercase;
+  color: $font-black-head;
+
+  &:before, &:after {
+    display: inline-block;
+    width: 50px;
+    margin: 0 10px;
+    content: "";
+    border-bottom: 2px solid $font-gray-main;
+  }
+}
+.text-s {
+  margin: 0;
+  font-family: $font-family-text;
+  font-size: $font-size-s;
+  color: $font-gray-main;
+  text-align: center;
+  line-height: 1.5;
+}
+.text-m {
+  font-family: $font-family-text;
+  font-size: $font-size-m;
+  color: $font-gray-main;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 1028px;
+  margin: 0 auto;
+}
+
+.text-l {
+  margin: 0;
+  font-family: $font-family-text;
+  font-size: $font-size-l;
+  color: $font-gray-main;
+  font-weight: 400;
+}
+.wrap-text {
+  width: 60%;
+  margin: 0 auto;
+}
+
