@@ -34,6 +34,7 @@
   line-height: 1.5;
   max-width: 1028px;
   margin: 0 auto;
+  font-weight: 400;
 }
 
 .text-l {
@@ -46,6 +47,17 @@
 
 .wrap-text {
   width: 60%;
+  margin: 0 auto;
+}
+
+.font-white {
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
   margin: 0 auto;
 }
 
