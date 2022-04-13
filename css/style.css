@@ -262,7 +262,7 @@ iframe {
 
 .section-4 {
   position: relative;
-  background-image: url("/img/section-4-backgroung.jpg");
+  background: url("../img/section-4-backgroung.jpg"), #628023;
   padding-bottom: 80px;
 }
 .section-4:before {
@@ -397,7 +397,7 @@ iframe {
 
 .section-7 {
   position: relative;
-  background-image: url("/img/section-6-background.PNG");
+  background: #08393f;
   margin: 0 auto 80px;
   padding: 0 20px;
 }
