@@ -1,5 +1,6 @@
 @import "variables";
 @import "common";
+@import "animation";
 
 html {
   scroll-behavior: smooth;
@@ -165,6 +166,14 @@ iframe {
     margin: 30px auto 0;
     justify-content: right;
     max-width: 800px;
+
+    &.action:nth-child(even) {
+      animation-name: right-left;
+    }
+
+    &.action {
+      animation-name: left-right;
+    }
   }
 
   &__description {
@@ -261,6 +270,23 @@ iframe {
     max-width: 250px;
     margin: 0;
     padding: 10px 10px;
+
+    p {
+      position: relative;
+      z-index: 3;
+    }
+
+    &:nth-child(2) img {
+      animation-duration: 1.3s;
+    }
+
+    &:nth-child(3) img {
+      animation-duration: 1.6s;
+    }
+
+    &:nth-child(4) img {
+      animation-duration: 1.9s;
+    }
   }
 }
 
@@ -298,18 +324,21 @@ iframe {
     justify-items: center;
     justify-content: space-evenly;
 
-    }
-    img {
-      width: 165px;
-      height: 165px;
-      object-fit: cover;
-      border-radius: 10%;
-      &:hover{
-        transform: scale(2);
-        transition-duration: 1s;
-      }
+  }
+
+  img {
+    width: 165px;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 10%;
+
+    &:hover {
+      transform: scale(1.6);
+      transition-duration: 1s;
+      z-index: 1;
     }
   }
+}
 
 
 .section-7 {
@@ -327,7 +356,6 @@ iframe {
 
   &--word {
     text-decoration: underline;
-    color: $font-gray-main;
   }
 
   &--btn {
@@ -356,6 +384,7 @@ iframe {
     margin: 35px 8px 80px;
     border: 1px solid;
     border-radius: 4px;
+    text-align: left;
   }
 
   &--btn {
